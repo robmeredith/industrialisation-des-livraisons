@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Bienvenue !
 ---
-# industrialisation-des-livraisons
+# Industrialisation des livraisons informatique
 Livre blanc introduisant le concept de l'industrialisation des livraisons d'un logiciel informatique.
 
 ## Synopsis
