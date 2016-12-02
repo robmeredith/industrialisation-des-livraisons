@@ -5,7 +5,7 @@ if [[ $TRAVIS_BRANCH == 'master' ]] ;
 then
     mv README.md index.md
     mv CONTRIBUTORS.md contributors.md
-    mv LICENCE licence.md
+    mv LICENSE licence.md
     git init
     git config user.name "Hervé Beraud"
     git config user.email "herveberaud.pro@gmail.com"
