@@ -12,7 +12,7 @@ env:
 
 script:
     - rm -rf .git
-    - jekyll new .
+    - jekyll new
 
 after_success:
     - chmod +x -R deployment
