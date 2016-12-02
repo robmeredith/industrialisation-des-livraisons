@@ -12,7 +12,7 @@ then
     git add .
     git status
     git commit -m "[site][v0.3.0] automatic deployment"
-    git remote add https://${git_target}
+    git remote add origin https://${git_target}
     git push --force --quiet "https://${git_user}:${git_password}@${git_target}" master:gh-pages > /dev/null 2>&1
     echo "gh-pages updated"
 else
