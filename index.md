@@ -4,6 +4,7 @@ layout: page
 # Industrialisation des livraisons informatique
 Livre blanc introduisant le concept de l'industrialisation des livraisons d'un logiciel informatique.
 
+
 ## Synopsis
 L'industrialisation des livraisons d'un produit logiciel est la pierre angulaire entre vous et vos utilisateurs.
 
