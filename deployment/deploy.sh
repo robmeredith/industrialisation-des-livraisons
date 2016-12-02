@@ -6,6 +6,8 @@ then
     mv README.md index.md
     mv CONTRIBUTORS.md contributors.md
     mv LICENSE licence.md
+	rm -rf deployment
+	mv resources assets
     git init
     git config user.name "Hervé Beraud"
     git config user.email "herveberaud.pro@gmail.com"
