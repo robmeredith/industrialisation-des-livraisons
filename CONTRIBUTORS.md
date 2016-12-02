@@ -1,2 +1,2 @@
 # List of contributors on this project
-- [Hervé Beraud](@4383)
+- [Hervé Beraud](https://github.com/4383/)
