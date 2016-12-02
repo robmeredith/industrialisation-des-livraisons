@@ -6,6 +6,12 @@ then
     mv README.md index.md
     mv CONTRIBUTORS.md contributors.md
     mv LICENSE licence.md
+    content=$(cat index.md) # no cat abuse this time
+    echo -en "---\nlayout: page\n---\n$content" >file.txt
+    content=$(cat contributors.md) # no cat abuse this time
+    echo -en "---\nlayout: page\n---\n$content" >file.txt
+    content=$(cat license.md) # no cat abuse this time
+    echo -en "---\nlayout: page\n---\n$content" >file.txt
     git init
     git config user.name "Hervé Beraud"
     git config user.email "herveberaud.pro@gmail.com"
