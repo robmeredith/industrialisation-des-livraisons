@@ -10,7 +10,7 @@ then
     echo -en "---\nlayout: page\n---\n$content" >file.txt
     content=$(cat contributors.md) # no cat abuse this time
     echo -en "---\nlayout: page\n---\n$content" >file.txt
-    content=$(cat license.md) # no cat abuse this time
+    content=$(cat licence.md) # no cat abuse this time
     echo -en "---\nlayout: page\n---\n$content" >file.txt
     rm -rf deployment
     mv resources assets
