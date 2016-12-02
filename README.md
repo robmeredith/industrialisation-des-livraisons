@@ -7,9 +7,9 @@ L'industrialisation des livraisons d'un produit logiciel est la pierre angulaire
 Une bonne industrialisation de cette phase permet en outre de réduire le time to market de vos produits, mais également assure une meilleure qualitée de vos produits ainsi qu'une meilleure maintenance et évolutivité.
 
 ## L'objectif de ce livre
-L'objectif de ce livre est de diffuser les bonnes pratiques d'industrialisation des livraisons d'un produit logiciel.
+L'objectif de ce livre est de diffuser les bonnes pratiques d'industrialisation des livraisons de produits logiciel.
 
-Ce livre doit évoluer au fil du temps et rester cohérent avec les pratiques en vigueur dans les années à venir.
+Ce livre doit évoluer au fil du temps, rester cohérent et d'actualité.
 
 ## Licence
 Ce livre est distribué sous licence GNU-GPL V3.
@@ -23,6 +23,7 @@ Voici souhaitez contribuer à la rédaction de ce livre blanc, voici comment vou
 - rédaction
 - réflexion
 - cadrage
+- traduction
 - relecture
 - correction
 - diffusion
@@ -44,5 +45,5 @@ L'équipe en charge de la gestion du dépôt officiel se réserve le droit de re
 
 Vos modifications seront alors fusionnées avec le dépt officiel.
 
-#### Proposer des idées, alerter en cas de problèmes ou d'anomalie
+#### Proposer des idées, alerter en cas de problèmes ou d'anomalies
 Vous détectez un soucis ou une erreur et vous ne souhaitez pas la corriger vous même, [ouvrez un ticket](https://github.com/livres-blanc/industrialisation-des-livraisons/issues) afin que l'équipe du projet s'en charge
