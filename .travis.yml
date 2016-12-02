@@ -1,0 +1,19 @@
+language: ruby
+rvm: 
+    - 2.2.5
+
+install: gem install jekyll html-proofer jekyll-sitemap
+
+sudo: required
+
+env:
+    global:
+        - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+script:
+    - rm -rf .git
+    - jekyll new . --force
+
+after_success:
+    - chmod +x -R deployment
+    - deployment/deploy.sh
